@@ -27,7 +27,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>Recovered</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={recovered.value ? recovered.value : parseInt((confirmed.value - deaths.value) * 0.25)} duration={2.5} separator="," />
+                            <CountUp start={0} end={recovered.value ? recovered.value : parseInt((confirmed.value - deaths.value) * 0.45)} duration={2.5} separator="," />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">Number of recoveries from Covid-19</Typography>
