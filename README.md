@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A covid-19 tracker web application built using React & Material UI with info from Covid-19 Mathdroid API and deployed on Vercel.
+
+Live: https://covid19-corono-tracker.vercel.app/
 
 ## Available Scripts
 
